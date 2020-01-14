@@ -4,7 +4,7 @@
 echo Focus to desmume NOW
 sleep 1
 
-for count in {0..50}
+for count in {0..5000}
 do
   espeak $count
   ./left_right.sh
