@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for count in {0..100}
+for count in {0..200}
 do
   xdotool key x
   sleep 0.2
