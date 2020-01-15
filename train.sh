@@ -31,5 +31,7 @@ do
   done
 
   xdotool windowactivate $id sleep 1 mousemove 700 200 mousedown 1 sleep 1 mouseup 1 sleep 0.1
+
+  sleep 2
 done
 
