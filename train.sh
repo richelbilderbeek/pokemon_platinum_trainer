@@ -9,9 +9,9 @@ echo "ID: "$id
 xdotool windowactivate $id sleep 1
 sleep 1
 
-for count in {0..3}
+for count in {0..10000}
 do
-  espeak $count
+  #espeak $count
   #./left_right.sh
   #./bash.sh
   #./fight.sh
